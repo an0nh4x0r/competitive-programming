@@ -12,3 +12,5 @@ public class PowerOf2 {
         return ((x & (x-1)) == 0);
     }
 }
+
+// source: http://www.java67.com/2015/06/how-to-use-bitwise-operator-in-java.html
