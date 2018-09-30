@@ -33,11 +33,7 @@ public class BalancedBrackets {
     }
 
     public static boolean isOpenItem(Character character) {
-        if (character == '{' || character == '[' || character == '(') {
-            return true;
-        } else {
-            return false;
-        }
+        return (character == '{' || character == '[' || character == '(');
     }
 
     public static boolean popAndCheck(Character closingBracket) {
